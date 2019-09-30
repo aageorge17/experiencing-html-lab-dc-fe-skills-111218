@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+
+<body>
+<!-- NOTES:
+
+Adjust width of buttons and image.
+Examlle: If you increase the width of the image you must reduce the width of the buttons by the same amount.
+buttonmaincontainert5
+width: 38%; (Change this value)
+#imagecontainert5
+width: 60%; (Change this value)
+ 
+Add new button: Select and copy the HTML from (Button 1 Start) to (Link 1 End). 
+Paste the copied HTML after the last (Link End) text. 
+Update the number in (Button 1 Start) and (Link 1 End) to reflect the new Link count.
+-->
+ 
+<!-- Copy HTML Start -->
+ <style>
+#maincontainert5 {
+  width: 100%;
+  display: flex;
+}
+#buttonmaincontainert5 {
+  width: 38%;
+  padding-top:10px;
+  padding-left:15px;
+  padding-bottom:10px;
+  vertical-align: top;
+  text-align:center;
+}
+#buttoncontainert5 {
+  display:inline-block;
+  vertical-align: top;
+  margin-right:10%;
+  margin-bottom:10%;
+  max-width:120px;
+}
+#buttont5 {
+  width: 120px; 
+  height:120px; 
+}
+.buttonimaget5 {
+  width:120px;
+  height:120px;
+} 
+#buttontextt5 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#6e6d72;
+}
+#imagecontainert5 {
+  width: 60%;
+  display:inline-block;
+  vertical-align: top;
+  margin-right:10px;
+}
+.linkimaget5 {
+  width:100%;
+} 
+@media (min-width: 100px) and (max-width: 940px) {
+	#imagecontainert5 {width: 100%;}
+	#buttonmaincontainert5 {width: 100%; clear:left;}
+	#maincontainert5 {display:block;}
+	#buttoncontainert5  {max-width:75px;}
+	#buttont5 {width:75px; height:75px;}
+	.buttonimaget5 {width:75px;height:75px;}
+	#buttoncontainert5  {margin-right:2%;margin-bottom:0%;}
+	#buttontextt5 {font-size:12px;}
+}
+@media (min-width: 940px) and (max-width: 1160px) {
+	#buttoncontainert5  {max-width:100px;}
+	#buttont5 {width:100px; height:100px;}
+	.buttonimaget5 {width:100px;height:100px;} 
+	#buttoncontainert5  {margin-right:4%;margin-bottom:0%;}
+}
+@media (min-width: 1160px) and (max-width: 1281px) {
+	#buttoncontainert5  {margin-right:5%;margin-bottom:2%;}
+}
+@media (min-width: 1281px) and (max-width: 1401px) {
+	#buttonmaincontainert5 {margin-top:1%;}
+	#buttoncontainert5  {margin-right:6%;margin-bottom:2%;}
+}
+@media (min-width: 1401px) and (max-width: 1750px) {
+	#buttonmaincontainert5 {margin-top:2%;}
+	#buttoncontainert5  {margin-right:7%;margin-bottom:7%;}
+}
+@media (min-width: 1750px) and (max-width: 2560px) {
+	#buttonmaincontainert5 {margin-top:2%;}
+	#buttoncontainert5  {margin-right:10%;margin-bottom:10%;}
+	#buttoncontainert5  {max-width:150px;}
+	#buttont5 {width:150px; height:150px;}
+	.buttonimaget5 {width:150px;height:150px;} 
+}
+
+</style>
+<div id="maincontainert5">
+
+<div id="imagecontainert5">
+<img src="/clientimg/txbiomed/welcome/Welcome%20Page%20Images/TXBiocampus.jpg" class="linkimaget5" border="0" />
+</div>
+
+<div id="buttonmaincontainert5">
+
+<!-- Button 1 Start -->
+<div id="buttoncontainert5">
+<div id="buttont5"><a href="https://txbiomed-pilot.csod.com/EPM/CareerCenter/CareerCenter.aspx?tab_page_id=-13"><img src="Button_Home.png" class="buttonimaget5" border="0" /></a></div>
+<div id="buttontextt5">My Learning Home 
+</div>
+</div>
+<!-- Button 1 End -->
+
+<!-- Button 2 Start -->
+<div id="buttoncontainert5">
+<div id="buttont5"><a href="http://www.google.com/"><img src="Button_Search.png" class="buttonimaget5" border="0" /></a></div>
+<div id="buttontextt5">Search for Training  
+</div>
+</div>
+<!-- Button 2 End -->
+
+<!-- Button 3 Start -->
+<div id="buttoncontainert5">
+<div id="buttont5"><a href="http://www.google.com/"><img src="Button_Transcript.png" class="buttonimaget5" border="0" /></a></div>
+<div id="buttontextt5">Transcript  
+</div>
+</div>
+<!-- Button 3 End -->
+
+<!-- Button 4 Start -->
+<div id="buttoncontainert5">
+<div id="buttont5"><a href="http://www.google.com/"><img src="Button_Team.png" class="buttonimaget5" border="0" /></a></div>
+<div id="buttontextt5">Contact Us 
+</div>
+</div>
+<!-- Button 4 End -->
+
+<!-- Button 5 Start -->
+<div id="buttoncontainert5">
+<div id="buttont5"><a href="http://www.google.com/"><img src="Button_Dash.png" class="buttonimaget5" border="0" /></a></div>
+<div id="buttontextt5">Contact Us 
+</div>
+</div>
+<!-- Button 5 End -->
+
+<!-- Button 6 Start -->
+<div id="buttoncontainert5">
+<div id="buttont5"><a href="http://www.google.com/"><img src="Button_Contact.png" class="buttonimaget5" border="0" /></a></div>
+<div id="buttontextt5">Contact Us 
+</div>
+</div>
+<!-- Button 6 End -->
+
+</div>
+
+
+</div>
+<!-- Copy HTML End -->
+
+</body>
+</html>
